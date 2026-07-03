@@ -96,7 +96,7 @@ body {
  padding: 24px 32px;
  display: flex;
  flex-direction: column;
- gap: 1.5rem;
+ gap: 1rem;
 }
 
 .content-text h2 {
