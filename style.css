@@ -84,10 +84,10 @@ body {
  right: 0;
  margin: 16px 24px;
  text-decoration: none;
- color: whitesmoke;
+ color: #ddd;
  font-size: var(--ff-small);
  font-family: var(--ff-pp);
- font-weight: 500;
+ font-weight: 400;
  letter-spacing: 1px;
 }
 
