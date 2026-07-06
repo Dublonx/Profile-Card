@@ -103,6 +103,35 @@ body {
  font-family: var(--ff-rt);
  font-size: var(--ff-heading);
  font-weight: bold;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+}
+
+.content-text .n-secondary {
+ font-family: var(--ff-pp);
+ font-size: 12px;
+ font-weight: 400;
+ color: #222;
+ text-align: center;
+ width: 100px;
+ padding: 4px 8px;
+ border: 1px solid var(--c-secondary);
+ border-radius: 32px;
+ position: relative;
+}
+
+.content-text .n-secondary::before {
+ content: "";
+ width: 6px;
+ height: 6px;
+ background-color: var(--c-primary);
+ border-radius: 50%;
+ display: block;
+ position: absolute;
+ top: 50%;
+ left: 12px;
+ transform: translateY(-50%);
 }
 
 .content-text .bio {
