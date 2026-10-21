@@ -99,10 +99,23 @@ body {
  gap: 1rem;
 }
 
-.content-text h2 {
+.text-content{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 4px;
+}
+
+.text-content h2 {
  font-family: var(--ff-rt);
  font-size: var(--ff-heading);
  font-weight: bold;
+}
+
+.text-content img {
+ width: 24px;
+ height: auto;
+ object-fit: cover;
 }
 
 .content-text .bio {
