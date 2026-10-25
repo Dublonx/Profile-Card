@@ -130,6 +130,7 @@ body {
  font-size: var(--ff-small);
  font-weight: 400;
  color: #222;
+ margin-top: 8px;
 }
 
 .content-text .summary {
