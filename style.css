@@ -161,11 +161,11 @@ body {
  justify-content: space-between;
 }
 
-.content-links .joined {
- font-family: var(--ff-pp);
- font-size: var(--ff-small);
- font-weight: 400;
- color: #222;
+.content-links .viber-cta {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ gap: 4px;
 }
 
 .content-links .link {
